@@ -1,3 +1,4 @@
+//VERSIÓN DIVERTIDA
 function esPar(numero){
     if (numero===0){
         return("¡Con el 0 no vale!")
@@ -10,3 +11,9 @@ function esPar(numero){
     }
 }
 console.log(esPar());
+
+//VERSIÓN CON BOOLEANO.
+function esPar(numero){
+    return numero%2==0
+}
+console.log(esPar())
